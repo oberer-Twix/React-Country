@@ -31,8 +31,8 @@ export default function Countries() {
         <div>
             {loading && <div>Loading...</div>}
             {!loading && <div className="flexing">
-                {countries.map(country => <div className="container">
-                    <Country key={country.name.common} country={country} onPressed={pushToDetails}/>
+                {countries.map(country => <div className="container" key={country.name.common}>
+                    <Country  country={country} onPressed={pushToDetails}/>
                 </div>)}
             </div>}
         </div>
