@@ -8,11 +8,20 @@ The data is fetched from [Countries-API](https://restcountries.eu/rest/v2/all)
 
 # Start
 To start the project, run the following command:
-    
-```npm run dev```
+- ```npm install``` or short ```npm i```
+- ```npm run dev```
 
 # Positive
-Easy to use, implement typescript and use of other Styled-Components
+- Uses mostly standart JavaScript Syntax
+- implement typescript is easy
+- standart Hooks are easy to use
 
 # Negative
-Not easy to style the components without using Styled-Components
+- Styling only inline or in external file possible
+- can appear "dirty" in komplex file
+- no Structure-Pattern (hard to find the important lines)
+
+# Usefull Libraries
+- React-Bootrtrap / Tailwind `styling`
+- Redux `function provider`
+- Next.js `SSR`
